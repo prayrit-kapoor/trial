@@ -9,7 +9,7 @@ window.addEventListener('DOMContentLoaded', function()
     {
         //Scene Creation and Background Color.
         var scene = new BABYLON.Scene(engine);        
-        scene.clearColor = new BABYLON.Color3.Gray;
+        scene.clearColor = new BABYLON.Color3.Blue;
 
        //Importing multimeter (3d model).
        var multimeter = BABYLON.SceneLoader.ImportMesh("","./3d/","multimeter.glb",scene,function(newMeshes){
